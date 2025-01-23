@@ -11,7 +11,7 @@ In other words, we can say, that program allows user to construct iterated funci
 
 For futher help on how to use program, run program and press 'Help'.
 
-_I would like to thank Gintautas Bareikis for the information on how works iterated function systems and how to make 2d transformations implementation._
+_I would like to thank Gintautas Bareikis for the information on how iterated function systems work and how to implement 2D transformations._
 
 # How to compile program
 If you have windows operating system and minGW64 compiler, you can try to run file 'createExe.bat'.
