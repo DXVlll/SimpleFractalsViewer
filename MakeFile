@@ -1,0 +1,25 @@
+inputs = inputs/
+input = FractalsViewer
+output = FractalsViewer.exe
+code = code/
+include = include/
+lib = lib/
+objects = objects/
+
+
+
+$(output).exe: $(objects)$(input).o $(objects)PointV.o $(objects)SomeCamera.o $(objects)SomeLine.o  $(objects)SomeTriangle.o $(objects)SomeTransform.o
+	g++ $(objects)$(input).o $(objects)PointV.o $(objects)SomeCamera.o $(objects)SomeLine.o $(objects)SomeTriangle.o $(objects)SomeTransform.o -L$(lib) -DWIN32 -D__NO_INLINE__ -static -static-libgcc -static-libstdc++ -lfltk -lmingw32 -lole32 -luuid -lcomctl32 -mwindows -o $(output)
+$(objects)$(input).o: $(inputs)$(input).cpp $(code)FMatrix.cpp
+	g++ -std=c++11 -c $(inputs)$(input).cpp -I$(include) -I$(code)  -o $(objects)$(input).o
+
+$(objects)PointV.o: $(code)PointV.cpp
+	g++ -std=c++11 -c $(code)PointV.cpp -I$(include)  -o $(objects)PointV.o
+$(objects)SomeCamera.o: $(code)SomeCamera.cpp
+	g++ -std=c++11 -c $(code)SomeCamera.cpp -I$(include)  -o $(objects)SomeCamera.o
+$(objects)SomeLine.o: $(code)SomeLine.cpp
+	g++ -std=c++11 -c $(code)SomeLine.cpp -I$(include)  -o $(objects)SomeLine.o
+$(objects)SomeTriangle.o: $(code)SomeTriangle.cpp
+	g++ -std=c++11 -c $(code)SomeTriangle.cpp -I$(include)  -o $(objects)SomeTriangle.o
+$(objects)SomeTransform.o: $(code)SomeTransform.cpp $(code)FMatrix.cpp
+	g++ -std=c++11 -c $(code)SomeTransform.cpp -I$(include)  -o $(objects)SomeTransform.o
