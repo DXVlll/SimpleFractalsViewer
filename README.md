@@ -7,7 +7,11 @@ In program you can define transformations and starting figure.
 Program by transformations will create new figures from starting figure, remove starting figure and then look at created figures as at starting figure. Then program by transformations will create new figures from starting figure and remove starting figure...
 Program will do these actions number of times equal to iterations parameter.
 
+In other words, we can say, that program allows user to construct iterated funciton systems for case when we have not big amount of functions and when all function are 2d transformations (which could be represented through rotation, translation and scale properties).
+
 For futher help on how to use program, run program and press 'Help'.
+
+I would like to thank Gintautas Bareikis for the information on how works iterated function systems and how to make 2d transformations implementation.
 
 # How to compile program
 If you have windows operating system and minGW64 compiler, you can try to run file 'createExe.bat'.
