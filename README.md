@@ -13,11 +13,14 @@ For futher help on how to use program, run program and press 'Help'.
 If you have windows operating system and minGW64 compiler, you can try to run file 'createExe.bat'.
 
 # Pictures
-
+Koch curve:
 ![image](result.jpg)
 
+Dragon curve:
 ![image](result2.jpg)
 
+Serpinski triangle:
 ![image](result3.jpg)
 
+Created by me fractal, which looks similar to letter 'D':
 ![image](result4.jpg)
