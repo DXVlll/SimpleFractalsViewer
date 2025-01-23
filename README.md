@@ -14,10 +14,10 @@ If you have windows operating system and minGW64 compiler, you can run file 'cre
 
 # Pictures
 
-[!image](https://raw.githubusercontent.com/DXVlll/SimpleFractalsViewer/refs/heads/main/result.jpg)
+![image](https://raw.githubusercontent.com/DXVlll/SimpleFractalsViewer/refs/heads/main/result.jpg)
 
-[!image]([result2.png](https://raw.githubusercontent.com/DXVlll/SimpleFractalsViewer/refs/heads/main/result.jpg))
+![image]([result2.png](https://raw.githubusercontent.com/DXVlll/SimpleFractalsViewer/refs/heads/main/result.jpg))
 
-[!image](result3.jpg)
+![image](result3.jpg)
 
-[!image](result4.jpg)
+![image](result4.jpg)
