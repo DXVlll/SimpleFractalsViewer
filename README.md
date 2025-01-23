@@ -14,5 +14,8 @@ If you have windows operating system and minGW64 compiler, you can run file 'cre
 
 # Pictures
 
+[result.png]
 
-
+[result2.png]
+[result3.png]
+[result4.png]
