@@ -10,7 +10,7 @@ Program will do these actions number of times equal to iterations parameter.
 For futher help on how to use program, run program and press 'Help'.
 
 # How to compile program
-If you have windows operating system and minGW64 compiler, you can run file 'createExe.bat'.
+If you have windows operating system and minGW64 compiler, you can try to run file 'createExe.bat'.
 
 # Pictures
 
