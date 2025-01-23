@@ -15,14 +15,14 @@ If you have windows operating system and minGW64 compiler, you can try to run fi
 # Pictures
 ### Koch curve:
 
-![image](result.jpg)
+![picture](result.jpg)
 
 ### Dragon curve:
 
-![image](result2.jpg)
+![picture 2](result2.jpg)
 
 ### Serpinski triangle:
-![image](result3.jpg)
+![picture 3](result3.jpg)
 
 ### Constructed by me fractal, which looks similar to letter 'D':
-![image](result4.jpg)
+![picture 4](result4.jpg)
