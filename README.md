@@ -22,5 +22,5 @@ Dragon curve:
 Serpinski triangle:
 ![image](result3.jpg)
 
-Created by me fractal, which looks similar to letter 'D':
+Constructed by me fractal, which looks similar to letter 'D':
 ![image](result4.jpg)
